@@ -7,20 +7,26 @@
     <body>
         <nav>
             <ul>
-                <li>Image search</li>
-                <li>Advanced search</li>
+                <li><a href="">Image Search</a></li>
+                <li><a href="">Advanced Search</a></li>
             </ul>
         </nav>
         <div>
-            <div class="img-container">
+            <div id="google-img-container">
                 <img src="google.jpg" alt="google">
             </div>
 
+            <div id="form-container">
+                <form action="https://www.google.com/search">
+                    <input id="input-field" type="text" name="q"><br>
+                    <div id="btn-field">
+                        <input class="submit-btn" type="submit" value="Google Search">
+                        <input class="submit-btn" type="submit" value="I'm feeling lucky">          
+                    </div>
 
-            <form action="https://www.google.com/search">
-                <input type="text" name="q">
-                <input type="submit" value="Google Search">
-            </form>
+                </form>            
+            </div>
+
         </div>
 
     </body>
