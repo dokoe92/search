@@ -1,0 +1,27 @@
+#advanced-outer {
+}
+
+#advanced-inner {
+    display: flex;
+    flex-direction:column;
+
+    width: 100rem;
+}
+
+input[type=text] {
+    
+}
+
+.search-field {
+    display: flex;
+}
+
+.text {
+    display: inline-block;
+    width: 22rem;
+    padding-top: 6px
+}
+
+.search-field {
+    display: inline-block;
+}
